@@ -8,7 +8,11 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "cfonts": "^2.10.1"
+  },
+  "dependencies": {
+    "inquire": "^0.4.8",
+    "opn": "^6.0.0"
   }
 }
