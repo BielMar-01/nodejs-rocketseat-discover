@@ -13,7 +13,6 @@
   },
   "dependencies": {
     "inquire": "^0.4.8",
-    "moment": "^2.29.3",
-    "opn": "^6.0.0"
+    "moment": "^2.29.3"
   }
 }
