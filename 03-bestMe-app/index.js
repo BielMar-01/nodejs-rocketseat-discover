@@ -21,3 +21,22 @@ process.stdin.on("data", data => {
     process.exit()
   }
 })
+
+process.on('exit', () => {
+  console.log(`
+    Bacana Gabriel!
+
+    O que você aprendeu hoje foi:
+    ${answers[0]}
+
+    O que te aborreceu e você poderia melhorar foi:
+    ${answers[1]}
+
+    O que te deixou feliz foi:
+    ${answers[2]}
+
+    Voce ajudou ${answers[3]} pessoas hoje!!
+
+    Volta amanhã para novas reflexões!!
+  `)
+})
