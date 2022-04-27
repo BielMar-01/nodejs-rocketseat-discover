@@ -1,4 +1,5 @@
 const { EventEmitter } = require('events')
-
 const evEmitter = new EventEmitter()
-console.log(evEmitter)
+
+evEmitter.emit('saySomething')
+evEmitter.emit('saySomething')
